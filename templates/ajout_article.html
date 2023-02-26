@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block title %}
+    Labelliseur d'articles
+{% endblock %}
+{% block content %}
+    <div class="container">
+        <form id="Ajout" action="/bdd/ajouter_article" method="post">
+            <p>Titre :</p>
+            <p><input type="text" name="title" /></p>
+            <p>Contenu :</p>
+            <p><input type="text" name="content" /></p>
+        </form>
+    </div>  
+    <button type="submit" class="btn ajout_article" form="Ajout">
+        Ajouter
+    </button> 
+{% endblock %}

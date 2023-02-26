@@ -1,0 +1,55 @@
+{% extends "base.html" %}
+{% block title %}
+Labelliseur d'articles
+{% endblock %}
+{% block content %}
+    <div class="update-container">
+        <ul>
+            <form id="Labels" action="#" method="post">
+                <li>
+                    <input class="update" type="checkbox" name="Agences de notation">
+                    <label for="Agences de notation">Agences de notation</label>
+                </li>
+                <li>
+                    <input class="update" type="checkbox" name="Lutte contre le blanchiment d argent et le financement du terrorisme">
+                    <label for="Lutte contre le blanchiment d argent et le financement du terrorisme">Lutte contre le blanchiment d argent et le financement du terrorisme</label>
+                </li>
+                <li>
+                    <input class="update" type="checkbox" name="MAR (abus de marché)">
+                    <label for="MAR (abus de marché)">MAR (abus de marché)</label>
+                </li>
+                <li>    
+                    <input class="update" type="checkbox" name="MiFID">
+                    <label for="MiFID">MiFID</label>
+                </li>
+                <li>
+                    <input class="update" type="checkbox" name="Normes comptables et reportings financiers">
+                    <label for="Normes comptables et reportings financiers">Normes comptables et reportings financiers</label>
+                </li>
+                <li>
+                    <input class="update" type="checkbox" name="Portefeuilles d'investissement">
+                    <label for="Portefeuilles d'investissement">Portefeuilles d'investissement</label>
+                </li>
+                <li>
+                    <input class="update" type="checkbox" name="Priips">
+                    <label for="Priips">Priips</label>
+                </li>
+                <li>
+                    <input class="update" type="checkbox" name="Reglementation Volcker">
+                    <label for="Reglementation Volcker">Reglementation Volcker</label>
+                </li>
+                <li>
+                    <input class="update" type="checkbox" name="Sanctions">
+                    <label for="Sanctions">Sanctions</label>
+                </li>
+                <li>
+                    <input class="update" type="checkbox" name="Autres">
+                    <label for="Autres">Autres</label>
+                </li>
+            </form>
+        </ul>
+        <button type="submit" class="btn btn-update" form="Labels">
+            Mettre à jour
+        </button> 
+    </div> 
+{% endblock %}

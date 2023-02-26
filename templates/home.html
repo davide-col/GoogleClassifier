@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+{% block title %}
+Labelliseur d'articles
+{% endblock %}
+{% block content %}
+    {% with messages = get_flashed_messages() %}
+        {% if messages[0] == "Labellisation terminée" %}
+            <script type="text/javascript">
+            window.onload = function () {
+            alert("Les articles trouvés ont été enregistrés et labellisés");
+            };
+            </script>
+        {% endif %}
+        {% if messages[0] == "Base de données vidée" %}
+            <script type="text/javascript">
+            window.onload = function () {
+            alert("La base de données est désormais vide");
+            };
+            </script>
+        {% endif %}
+        {% if messages[0] == "aucun article" %}
+            <script type="text/javascript">
+            window.onload = function () {
+            alert("Aucun article à labelliser");
+            };
+            </script>
+        {% endif %}
+    {% endwith %}
+    <div class="bouton1_container">
+        <a href="/bdd" class="bouton">Consulter les articles</a>
+    </div>
+    <div class="bouton2_container">
+        <a href="/scraper" class="scraper">Scraper et labelliser</a>
+    </div>
+{% endblock %}

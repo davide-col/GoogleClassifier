@@ -1,0 +1,125 @@
+body {
+    background-color: #1a1a24;
+    color : white;
+}
+
+.table {
+    width: 85%;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+table.table thead th {
+    text-align: center;
+    color: white;
+    background-color: #2e2e38;
+}
+
+table.table tbody {
+    color: white;
+}
+
+table.table tbody th {
+    color: white;
+    background-color: #1a1a24;
+}
+
+.dropdown {
+    display: inline-block;
+    padding-left: 10px;
+  }
+  
+  .btn-secondary {
+    background-color: #1a1a24;
+    font-size: 12px;
+    padding: 3px 3px;
+  }
+
+.btn {
+    color: White;
+}
+
+.checkbox {
+    padding-left: 10px;
+}
+
+.dropdown-menu {
+    min-width: 530px;
+}
+
+.bouton-option {
+    min-width: 150px;
+}
+
+table.table-dark {
+    --bs-table-bg: #1a1a24; 
+}
+
+.btn-outline-warning-vider{
+    --bs-btn-color: #ffe600;
+    --bs-btn-border-color: #ffe600;
+    --bs-btn-hover-border-color: #ffe600;
+    --bs-btn-hover-bg: #ffe600;
+    --bs-btn-active-bg: #ffe600;
+    --bs-btn-active-border-color: #ffe600;
+    --bs-btn-disabled-color: #ffe600;
+    position: fixed;
+    bottom: 30px;
+    right: 20px;
+}
+
+.btn-outline-warning-ajout{
+    --bs-btn-color: #ffe600;
+    --bs-btn-border-color: #ffe600;
+    --bs-btn-hover-border-color: #ffe600;
+    --bs-btn-hover-bg: #ffe600;
+    --bs-btn-active-bg: #ffe600;
+    --bs-btn-active-border-color: #ffe600;
+    --bs-btn-disabled-color: #ffe600;
+    position: fixed;
+    bottom: 30px;
+    right: 95px;
+}
+
+.table-group-divider {
+    border-top: 2px solid #ffe600;
+}
+
+.filtrer {
+    border: 1px solid #ffe600; 
+}
+
+.btn-filtrer {
+    border: 1px solid #ffe600;
+    margin-right: 7px;
+}
+
+.image-navbar {
+    position: absolute;
+    top: 10px;
+    left: 2px;
+}
+
+.text-navbar {
+    position: absolute;
+    top: 13px;
+    left: 43px;
+}
+
+.navbar-container {
+    position : absolute;
+    top: 10px;
+    left: 220px;
+}
+
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
+    color: #ffe600;
+}
+
+.navbar-nav {
+    --bs-nav-link-hover-color: #ffe600;
+}
+
+.nav-link {
+    color: white;
+}
